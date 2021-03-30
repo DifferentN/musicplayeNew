@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#020828</item>
+        <item name="colorPrimaryDark">#0f1934</item>
+        <item name="colorAccent">@color/musicStyle</item>
+    </style>
+
+    <!-- 启动页白屏问题-->
+    <style name="AppTheme.Launcher">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/bg_launcher</item>
+    </style>
+
+    <style name="local" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#020828</item>
+        <item name="colorPrimaryDark">#0f1934</item>
+        <item name="colorAccent">@color/musicStyle</item>
+    </style>
+
+    <!-- 修改tablayout的背景色，提示线的颜色，字体颜色等-->
+    <style name="MyTabLayoutStyle" parent="android:Widget">
+        <item name="tabBackground">@color/tab</item>
+        <item name="tabIndicatorColor">@color/yellow</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
+        <item name="tabSelectedTextColor">@color/yellow</item>
+    </style>
+
+    <style name="TextAppearance.Design.Tab" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+
+    <style name="neteasa_music_time_text_sytle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ccc</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="neteasa_music_time_seek_bar_sytle" parent="Widget.AppCompat.SeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:thumb">@drawable/ic_seekbar_thumb</item>
+    </style>
+
+    <style name="download_seek_bar_sytle" parent="Widget.AppCompat.SeekBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:thumb">@null</item>
+    </style>
+
+    <style name="text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+
+
+</resources>

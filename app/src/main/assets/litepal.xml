@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="SongList" />
+
+    <version value="27" />
+
+    <list>
+        <mapping class="com.example.musicplayer.entiy.OnlineSong" />
+        <mapping class="com.example.musicplayer.entiy.LocalSong" />
+        <mapping class="com.example.musicplayer.entiy.SearchHistory" />
+        <mapping class="com.example.musicplayer.entiy.Love" />
+        <mapping class="com.example.musicplayer.entiy.HistorySong" />
+        <mapping class="com.example.musicplayer.entiy.AlbumCollection" />
+        <mapping class="com.example.musicplayer.entiy.DownloadSong" />
+        <mapping class="com.example.musicplayer.entiy.DownloadInfo"/>
+        <mapping class="com.example.musicplayer.entiy.Song"/>
+    </list>
+</litepal>

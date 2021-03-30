@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">随心音乐2.0</string>
+    <string name="name">周杰伦</string>
+    <string name="student_id"></string>
+    <string name="seek">搜索</string>
+    <string name="local_music">本地音乐</string>
+    <string name="collection">我的收藏</string>
+    <string name="download">下载</string>
+    <string name="searchHistory">最近播放</string>
+    <string name="song_list">自建歌单</string>
+    <string name="love">我喜欢</string>
+    <string name="collection_start">默认收藏</string>
+    <string name="welcome">人生几何,对酒当歌</string>
+    <string name="search">搜索</string>
+    <string name="delete_all_history">清空搜索历史</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+
+    <string name="love_success">收藏成功</string>
+    <string name="get_lrc_success">获取封面和歌词成功</string>
+    <string name="get_lrc_fail">抱歉，获取不到该歌曲的歌词信息</string>
+
+    //专辑
+    <string name="album_album">专辑</string>
+    <string name="album_language">语言</string>
+    <string name="album_company">唱片公司</string>
+    <string name="album_publish_time">发行时间</string>
+    <string name="album_type">专辑类型</string>
+
+    <string name="loading_text">加载中，请稍后</string>
+    <string name="reload">重试</string>
+
+    //error
+    <string name="error_unknown">未知错误</string>
+    <string name="error_network">当前网络不可用，请检查网络设置</string>
+    <string name="error_timeout">连接超时，请重试</string>
+    <string name="error_http">网络错误</string>r
+    <string name="error_parse">解析错误</string>
+    <string name="error_view_network">网络不给力</string>
+    <string name="error_view_retry">重试</string>
+    <string name="error_out_of_copyright">抱歉该歌曲暂没有版权，搜搜其他歌曲吧</string>
+
+    <string name="empty_text">本地音乐为空，试试点击右上角导入本地歌曲</string>
+    
+    //start
+    <string name="welcome_start">随心跳动，开启你的音乐旅程！</string>
+
+    //playMode
+    <string name="play_mode_order">顺序播放</string>
+    <string name="play_mode_random">随机播放</string>
+    <string name="play_mode_single">单曲循环</string>
+    <string name="bias">&#160;/&#160;</string>
+
+    //download
+    <string name="downloded">该歌曲已下载</string>
+    <string name="download_cancel">取消下载</string>
+    <string name="download_cancel_message">确定不再下载吗？</string>
+    <string name="download_sure">删除</string>
+    <string name="search_singer">邓紫棋</string>
+    <string name="look">看</string>
+    <string name="listen">听</string>
+    <string name="me">我</string>
+    <string name="welcome_text">随心所动，开启你的音乐之旅</string>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_player"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:clickable="true"
+    android:elevation="10dp"
+    android:focusable="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="bottom"
+            android:background="@color/player">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="75dp">
+
+
+                <SeekBar
+                    android:id="@+id/sb_progress"
+                    style="@style/neteasa_music_time_seek_bar_sytle" />
+
+                <TextView
+                    android:id="@+id/tv_song_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sb_progress"
+                    android:layout_marginStart="15dp"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_singer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_song_name"
+                    android:layout_marginStart="15dp"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:singleLine="true"
+                    android:textColor="@color/white_blue"
+                    android:textSize="12sp" />
+
+                <com.andexert.library.RippleView
+                    android:id="@+id/song_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/sb_progress"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="8dp"
+                    ripple:rv_centered="true">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/song_next" />
+                </com.andexert.library.RippleView>
+
+                <com.andexert.library.RippleView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sb_progress"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toLeftOf="@+id/song_next"
+                    ripple:rv_centered="true">
+
+                    <Button
+                        android:id="@+id/btn_player"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/selector_player" />
+                </com.andexert.library.RippleView>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:circleimageview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circle_img"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/background"
+            circleimageview:civ_border_color="@color/white"
+            circleimageview:civ_border_overlay="false"
+            circleimageview:civ_border_width="2dp" />
+    </FrameLayout>
+</LinearLayout>
